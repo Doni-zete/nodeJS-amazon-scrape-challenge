@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Scraper</title>
+  <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <link rel="icon" href="assets/Scraper.png" />
+  <link rel="stylesheet" href="css/style.css" />
+ </head>
+ <body>
+  <header>
+   <h1>Amazon Scraper</h1>
+   <!-- Input for entering the search keyword -->
+   <input type="text" id="searchInput" placeholder="Enter search keyword" />
+   <!-- Button to initiate the search -->
+   <button id="searchButton">
+    <i class="fa-solid fa-magnifying-glass"></i> Search
+   </button>
+  </header>
+
+  <main>
+   <!-- Div to display search results -->
+   <div id="results"></div>
+  </main>
+
+  <footer>
+  <!--Link to GitHub profile -->
+   <p>
+    <a href="https://github.com/Doni-zete?tab=repositories" target="_blank">
+     &copy;2024 Donizete Crisostomo
+    </a>
+   </p>
+  </footer>
+
+  <!-- Importing Axios library for making HTTP requests -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- JavaScript script for front-end manipulation -->
+  <script src="script/script.js"></script>
+ </body>
+</html>
